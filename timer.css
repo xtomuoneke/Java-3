@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+    position: relative;
+    text-transform: capitalize;
+    }
+    
+    .section{
+        display: flex;
+        line-height: 1.4;
+       position: absolute;
+       left: 25%;
+      top: 25%;
+    }
+    
+    
+    img{
+    width: 500px;
+    }
+    .gift-info{
+        margin-left: 20px;
+    }
+    
+    .deadline-format{
+    display: inline-block;
+    background-color: darkblue;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    border: 2px solid darkblue;
+    width: 50px;
+    
+    }
+    .deadline-format.hours{
+        display: none;
+    }
+    
+    .deadline-format:nth-child(1){
+       
+        font-weight: 700;
+        }
+    .deadline-format:nth-child(2){
+    margin: 0 10px;
+    font-weight: 700;
+    }
+    .deadline-format:nth-child(3){
+        margin: 0 10px;
+        font-weight: 700;
+        }
+    .deadline-format:nth-child(4){
+        margin: 0 10px;
+        font-weight: 700;
+    
+        }
+    
+    span{
+        color: whitesmoke;
+        font-weight: 100;
+    }
+    
+    
+    
+    
+    
+    /* typography */
+    
+    h3{
+      font-size: 30px; 
+      color: darkblue; 
+    }
+    
+    .giveaway{
+        color: darkblue;
+    }
